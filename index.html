@@ -1,88 +1,185 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Hair Study</title>
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+
+  <div class="noise"></div>
 
   <nav>
     <div class="logo">HAIR STUDY</div>
 
     <ul>
-      <li><a href="#about">О НАС</a></li>
-      <li><a href="#schemes">СХЕМЫ</a></li>
-      <li><a href="#gallery">ГАЛЕРЕЯ</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#education">EDUCATION</a></li>
+      <li><a href="#schemes">SCHEMES</a></li>
+      <li><a href="#gallery">GALLERY</a></li>
     </ul>
   </nav>
 
   <header>
-    <h1>МИНИМАЛИЗМ В СТРИЖКАХ</h1>
 
-    <p>
-      Платформа для начинающих парикмахеров.
-      Изучай схемы, формы и современные техники.
-    </p>
+    <div class="hero-left">
+      <p class="small-text">MINIMALIST EDUCATION PLATFORM</p>
 
-    <button id="startBtn">НАЧАТЬ</button>
+      <h1>
+        FOR<br>
+        BEGINNER<br>
+        HAIRSTYLISTS
+      </h1>
+
+      <p class="description">
+        Изучай формы, техники, секции и схемы современных стрижек
+        в минималистичном визуальном пространстве.
+      </p>
+
+      <button id="exploreBtn">EXPLORE</button>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-image">
+        HAIR<br>CONCEPT
+      </div>
+    </div>
+
   </header>
 
   <section id="about">
 
-    <h2>КОНЦЕПТ</h2>
+    <div class="section-title">
+      <span>01</span>
+      <h2>ABOUT PROJECT</h2>
+    </div>
 
-    <p>
-      Пространство для изучения техник стрижек,
-      визуальных схем и структуры причесок.
-    </p>
+    <div class="about-grid">
+
+      <div class="about-card">
+        <h3>VISUAL STUDY</h3>
+
+        <p>
+          Минималистичный подход к обучению парикмахерскому искусству
+          через визуальные схемы и композицию.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <h3>STRUCTURE</h3>
+
+        <p>
+          Изучение геометрии стрижек, направлений, углов
+          и распределения объема.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <h3>MODERN STYLE</h3>
+
+        <p>
+          Современный концепт для нового поколения hairstylist.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="education">
+
+    <div class="section-title">
+      <span>02</span>
+      <h2>EDUCATION BLOCKS</h2>
+    </div>
+
+    <div class="education-grid">
+
+      <div class="education-card">
+        <div class="number">01</div>
+
+        <h3>FADE THEORY</h3>
+
+        <p>
+          Базовая теория переходов и плавного распределения длины.
+        </p>
+      </div>
+
+      <div class="education-card">
+        <div class="number">02</div>
+
+        <h3>SECTIONING</h3>
+
+        <p>
+          Правильное разделение волос и построение формы.
+        </p>
+      </div>
+
+      <div class="education-card">
+        <div class="number">03</div>
+
+        <h3>TEXTURE</h3>
+
+        <p>
+          Работа с текстурой и объемом современных стрижек.
+        </p>
+      </div>
+
+    </div>
 
   </section>
 
   <section id="schemes">
 
-    <h2>СХЕМЫ ПРИЧЕСОК</h2>
+    <div class="section-title">
+      <span>03</span>
+      <h2>HAIRCUT SCHEMES</h2>
+    </div>
 
-    <div class="cards">
+    <div class="scheme-grid">
 
-      <div class="card">
-        <div class="image">
-          СХЕМА
+      <div class="scheme-card">
+        <div class="scheme-image">
+          SCHEME
         </div>
 
-        <h3>FADE</h3>
-
-        <p>
-          Плавный переход длины.
-        </p>
+        <div class="scheme-content">
+          <h3>LOW FADE</h3>
+          <p>
+            Геометрия плавного перехода.
+          </p>
+        </div>
       </div>
 
-      <div class="card">
-        <div class="image">
-          СХЕМА
+      <div class="scheme-card">
+        <div class="scheme-image">
+          SCHEME
         </div>
 
-        <h3>MULLET</h3>
-
-        <p>
-          Объем и длинная затылочная зона.
-        </p>
+        <div class="scheme-content">
+          <h3>MULLET</h3>
+          <p>
+            Современная форма и объем.
+          </p>
+        </div>
       </div>
 
-      <div class="card">
-        <div class="image">
-          СХЕМА
+      <div class="scheme-card">
+        <div class="scheme-image">
+          SCHEME
         </div>
 
-        <h3>BOB CUT</h3>
-
-        <p>
-          Геометрия и чистые линии.
-        </p>
+        <div class="scheme-content">
+          <h3>BOB CUT</h3>
+          <p>
+            Чистая геометрия и баланс.
+          </p>
+        </div>
       </div>
 
     </div>
@@ -91,23 +188,34 @@
 
   <section id="gallery">
 
-    <h2>ГАЛЕРЕЯ</h2>
+    <div class="section-title">
+      <span>04</span>
+      <h2>GALLERY</h2>
+    </div>
 
-    <div class="gallery">
+    <div class="gallery-grid">
 
-      <div class="photo">PHOTO</div>
-      <div class="photo">PHOTO</div>
-      <div class="photo">PHOTO</div>
+      <div class="gallery-item large">PHOTO</div>
+      <div class="gallery-item">PHOTO</div>
+      <div class="gallery-item">PHOTO</div>
+      <div class="gallery-item wide">PHOTO</div>
 
     </div>
 
   </section>
 
   <footer>
-    HAIR STUDY © 2026
+
+    <h2>HAIR STUDY</h2>
+
+    <p>
+      Minimal education platform for hairstylists © 2026
+    </p>
+
   </footer>
 
   <script src="script.js"></script>
 
 </body>
+
 </html>
